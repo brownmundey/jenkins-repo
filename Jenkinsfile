@@ -10,7 +10,7 @@ pipeline {
 
             steps {
                 
-                    sh 'sudo mvn clean compile'
+                    sh 'sudo mvn compile'
                 }
             
         }
