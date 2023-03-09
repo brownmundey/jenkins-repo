@@ -2,7 +2,6 @@ pipeline {
     agent {
 		label {
 			label "slave-1"
-			customWorkspace "/mnt/build-tool/apache-maven-3.9.0/bin"
 		}
 	}
 
